@@ -2,6 +2,7 @@ import React from "react";
 //Importamos el .JSON.
 import pelis from "./Ejercicio2.json";
 import Elenco from "./Elenco";
+import Taquilla from "./Taquilla";
 import Pelicula from "./Pelicula";
 
 
@@ -26,6 +27,7 @@ function Peliculas(props) {
             </Pelicula>
 
             <Elenco>{peli.elenco}</Elenco>
+            <Taquilla>{peli.taquilla}</Taquilla>
             </React.Fragment>
             )
         })}
